@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+        <title>Conteúdo Aula12 - HTML</title>
+
+        <style>
+
+            /* Alinhando divs com o float*/
+
+            .div-float {
+                width: 100%;
+                overflow: auto;
+            }
+
+            .div-float div {
+                width: 33%;
+                float:left;
+            }
+
+            /*Alinhando divs com inline-block*/
+
+            .div-inline-block {
+                width: 100%;
+                overflow: auto;
+            }
+
+            .div-inline-block div {
+                display: inline-block;
+            }
+
+            /*Alinhando divs com o flex*/
+
+            .div-flex {
+                display:flex;
+            }
+
+            .div-flex div {
+               width: 33%; 
+            }
+
+            /*Alinhando divs com grid*/
+
+            .div-grid {
+                display: grid;
+                grid-template-columns: 33% 33% 33%;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1>Divs no HTML</h1>
+
+        <h3>Vários Elementos div</h3>
+
+        <div style="background-color: blue">
+            <h2>Fazer o que te faz feliz</h2>
+            <p>Não troque liberdade por pura ilusão</p>
+            <p>Não troque liberdade por pura ilusão</p>
+        </div>
+
+         <div style="background-color: crimson">
+            <h2>Fazer o que te faz feliz</h2>
+            <p>Não troque liberdade por pura ilusão</p>
+            <p>Não troque liberdade por pura ilusão</p>
+        </div>
+
+         <div style="background-color: orangered;">
+            <h2>Fazer o que te faz feliz</h2>
+            <p>Não troque liberdade por pura ilusão</p>
+            <p>Não troque liberdade por pura ilusão</p>
+        </div>
+
+        <hr>
+
+        <h2>Alinhando divs lado a lado</h2>
+
+        <h3>Utilizando o float</h3>
+
+    <div class="div-float">
+            
+            
+        <div style="background-color: blue">
+            <h2>Fazer o que te faz feliz</h2>
+            <p>Não troque liberdade por pura ilusão</p>
+            <p>Não troque liberdade por pura ilusão</p>
+        </div>
+
+         <div style="background-color: crimson">
+            <h2>Fazer o que te faz feliz</h2>
+            <p>Não troque liberdade por pura ilusão</p>
+            <p>Não troque liberdade por pura ilusão</p>
+        </div>
+
+         <div style="background-color: orangered;">
+            <h2>Fazer o que te faz feliz</h2>
+            <p>Não troque liberdade por pura ilusão</p>
+            <p>Não troque liberdade por pura ilusão</p>
+        </div>
+    </div>
+
+    <hr>
+
+    <h3>Utilizando o inline-block</h3>
+
+    <div class="div-inline-block">
+
+        <div style="background-color: blue">
+            <h2>Fazer o que te faz feliz</h2>
+            <p>Não troque liberdade por pura ilusão</p>
+            <p>Não troque liberdade por pura ilusão</p>
+        </div>
+
+         <div style="background-color: crimson">
+            <h2>Fazer o que te faz feliz</h2>
+            <p>Não troque liberdade por pura ilusão</p>
+            <p>Não troque liberdade por pura ilusão</p>
+        </div>
+
+         <div style="background-color: orangered;">
+            <h2>Fazer o que te faz feliz</h2>
+            <p>Não troque liberdade por pura ilusão</p>
+            <p>Não troque liberdade por pura ilusão</p>
+        </div>
+
+    </div>
+
+    <br>
+
+    <h3>Utilizando o flex</h3>
+
+    <div class="div-flex">
+
+        <div style="background-color: blue">
+            <h2>Fazer o que te faz feliz</h2>
+            <p>Não troque liberdade por pura ilusão</p>
+            <p>Não troque liberdade por pura ilusão</p>
+        </div>
+
+         <div style="background-color: crimson">
+            <h2>Fazer o que te faz feliz</h2>
+            <p>Não troque liberdade por pura ilusão</p>
+            <p>Não troque liberdade por pura ilusão</p>
+        </div>
+
+         <div style="background-color: orangered;">
+            <h2>Fazer o que te faz feliz</h2>
+            <p>Não troque liberdade por pura ilusão</p>
+            <p>Não troque liberdade por pura ilusão</p>
+        </div>
+
+    </div>
+
+    <br>
+
+    <h3>Utilizando o grid</h3>
+
+    <div class=" div.grid">
+        <div style="background-color: blue">
+            <h2>Fazer o que te faz feliz</h2>
+            <p>Não troque liberdade por pura ilusão</p>
+            <p>Não troque liberdade por pura ilusão</p>
+        </div>
+
+         <div style="background-color: crimson">
+            <h2>Fazer o que te faz feliz</h2>
+            <p>Não troque liberdade por pura ilusão</p>
+            <p>Não troque liberdade por pura ilusão</p>
+        </div>
+
+         <div style="background-color: orangered;">
+            <h2>Fazer o que te faz feliz</h2>
+            <p>Não troque liberdade por pura ilusão</p>
+            <p>Não troque liberdade por pura ilusão</p>
+        </div>
+    </div>
+
+</body>
+</html>
